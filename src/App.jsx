@@ -90,7 +90,11 @@ function App() {
         <Route element={<PrivateRoutes></PrivateRoutes>}>
         <Route path='/profile' element={<Profile></Profile>}></Route>
         </Route>
+        <Route element={<PrivateRoutes></PrivateRoutes>}>
         <Route path='/create-a-podcast' element={<CreateAPodcast></CreateAPodcast>}></Route>
+
+        </Route>
+      
         <Route element={<PrivateRoutes></PrivateRoutes>}>
         <Route path='/podcasts' element={<Podcast></Podcast>}></Route>
         </Route>
