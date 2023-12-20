@@ -1,0 +1,45 @@
+.audio-player{
+    width: 40%;
+    position: fixed;
+    left: 55%;
+    bottom: 30px;
+    display: flex;
+   background-color:#412758ef;
+    padding: 1rem;
+   border-radius: 5px;
+    transition: 0.3s all ease;
+    gap: 15px;
+    align-items: center;
+    
+}
+.audio-player img
+{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.audio-range
+{
+   accent-color: black;
+   
+}
+.duration-flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.r-icons
+{
+    position: relative;
+    bottom: -3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.volume
+{
+    width: 20%;
+    accent-color:black
+    
+}
